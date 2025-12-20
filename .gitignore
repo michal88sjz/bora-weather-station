@@ -1,0 +1,19 @@
+# ESPHome
+.esphome/
+*.log
+
+# Secrets
+secrets.yaml
+secrets.yaml.example~
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
