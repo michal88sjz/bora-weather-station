@@ -1,19 +1,35 @@
+# =========================
 # ESPHome
+# =========================
 .esphome/
 *.log
+*.elf
+*.bin
 
-# Secrets
+# =========================
+# Secrets (NIGDY do repo)
+# =========================
 secrets.yaml
-secrets.yaml.example~
+secrets.yaml.*
+!secrets.yaml.example
 
-# IDE
+# =========================
+# IDE / Editors
+# =========================
 .vscode/
 .idea/
+*.code-workspace
 
-# OS
+# =========================
+# OS generated files
+# =========================
 .DS_Store
 Thumbs.db
 
-# Temporary files
+# =========================
+# Temporary / backup files
+# =========================
 *.tmp
 *.bak
+*.swp
+*~
