@@ -51,7 +51,10 @@ No PCB redesign will be required to enable these features in later stages.
 ## 🛠️ Hardware
 
 ### Main Controller
-- **ESP32-WROOM-32D** – Wi-Fi MCU running ESPHome
+- **ESP32-DevKitC** with **ESP32-WROOM-32D**
+  - Used as a pluggable development board
+  - Mounted on pin headers and inserted into the main Bora PCB
+  - No custom ESP32 PCB footprint required
 
 ### Sensors
 - **BME280** – temperature, humidity, pressure (I²C, 3.3 V)
